@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Página Inicial
+RewriteRule (^$) public/index.php [L] 
+
+# Redirecionamentos
+RewriteRule (^aa) public/modelo.php [L] 
